@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: Gadugi, sans-serif;
+    background-color: rgb(192, 153, 114);
+}
+header {
+    height: 70px;
+    display: flex;
+    flex-direction: column; 
+        align-items: center;
+    padding: 20px;
+    background-color: #0e0b07e7;
+     background-size: cover;
+    background-position: center;
+    position: fixed; 
+    width: 100%; 
+        margin-bottom: 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+}
+
+.logo {
+    border-radius: 50%; 
+    overflow: hidden; 
+    width: 70px; 
+    height: 70px; 
+}
+
+.logo img {
+    width: 100%; 
+    height: auto; 
+}
+
+header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ded4d4;
+    font-size: 30px;
+}
+
+.nav-container a {padding-right: 40px;
+    margin: 0 15px; 
+    color: white; 
+}
+
+.image{display: flex;
+        justify-content: center;
+        padding-top: 110px;
+        
+}
+h1 {
+    position: relative;
+}
+
+h1:before {
+    content: "";
+    display: block;
+    height: 100px; 
+    margin-top: -100px; 
+} 
+.container {
+    width: 60%;
+    display: flex;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.container:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.container img {
+    width: 45%;
+    height: auto;
+    margin: 0 20px;
+}
+
+.text {font-size: 20px;
+    width: 50%;
+}
+
+.slider-container {display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {height: 500px;
+    position: relative;
+    width: 65%; 
+    overflow: hidden; 
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+#works{
+    display: flex;
+        justify-content: center;
+}
+.slide.active {
+    opacity: 1; }
+
+footer {height:80px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #0e0b07e7;
+    color: #d9c7c7;
+    font-size: 30px;
+
+}
+
+footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #eadddd;
+}
+#scrollToTop {margin-right: 40px;
+    position: fixed;       
+    bottom: 20px;         
+    right: 20px;          
+    background-color: hsl(24, 100%, 50%); 
+    color: white;         
+    border: none;         
+    border-radius: 5px;  
+        padding: 10px 15px;   
+    cursor: pointer;      
+    z-index: 1000;        
+}
+
+#scrollToTop:hover {
+    background-color: hsl(34, 100%, 35%); 
+}
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    .main-image {
+        height: 200px;
+    }
+}
