@@ -14,4 +14,4 @@ The website is built using HTML, CSS, and JavaScript, providing a modern and int
   
 Technologies: HTML5, CSS3, JavaScript
 Project Goals: Education and inspiration, providing a platform for those interested in blacksmithing and Damascus steel, as well as promoting workshops and high-quality handcrafted products.
-[https://ali-stamina.github.io/Landing-page-Damascus.github.io/ ]
+>https://ali-stamina.github.io/Landing-page-Damascus.github.io/ 
