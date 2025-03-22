@@ -1,5 +1,5 @@
 # Landing-page-Damascus-
-## Project: "Damascus" Website/n
+## Project: "Damascus" Website
   * This personal website is dedicated to the art of blacksmithing, with a focus on unique creations made from Damascus steel. The site includes the following sections:
     
 •	Damascus Steel: Information about Damascus steel, its origins, and unique properties, including historical context and production methods.
